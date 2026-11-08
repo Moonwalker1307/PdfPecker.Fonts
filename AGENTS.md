@@ -56,6 +56,8 @@ is a few lines of C# over embedded files, registered with PdfPecker's public `Fo
 - `tests/PdfPecker.Fonts.Tests/`: xUnit over the public API: registration cost, fallback per script and region,
   emoji, every hyphenation file.
 - `.github/workflows/build.yml`: fetch, check, build, test, pack; publishes on a published release.
+- `.github/workflows/vulnerability-scan.yml`: a daily OSV-Scanner run on the NuGet packages, with results in Security →
+  Code scanning.
 
 ## Build and verify
 
