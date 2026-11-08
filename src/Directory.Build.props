@@ -1,0 +1,44 @@
+<Project>
+  <Import Project="../Directory.Build.props" />
+
+  <!-- What every package shares. Each package targets net8.0 only: the fonts are the bulk of it, and one target framework
+       keeps them in the package once instead of once per framework. It runs on .NET 8, 9 and 10. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsTrimmable>true</IsTrimmable>
+    <IsAotCompatible>true</IsAotCompatible>
+    <RootNamespace>PdfPecker</RootNamespace>
+
+    <Authors>Moonwalker1307</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageProjectUrl>https://pdfpecker.net/</PackageProjectUrl>
+    <PackageReleaseNotes>What changed in each release: https://pdfpecker.net/docs/changelog/</PackageReleaseNotes>
+    <Copyright>Copyright (c) 2026 Moonwalker1307</Copyright>
+    <RepositoryUrl>https://github.com/Moonwalker1307/PdfPecker.Fonts</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <!-- No symbol packages: the code is a few hundred lines, and a snupkg would only repeat the package's size. -->
+    <IncludeSymbols>false</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfPecker" Version="$(PdfPeckerVersion)" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="$(MSBuildThisFileDirectory)../THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="/" />
+    <None Include="$(MSBuildThisFileDirectory)../assets/logo.png" Pack="true" PackagePath="/" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared/EmbeddedFile.cs" Link="Shared/EmbeddedFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared/Face.cs" Link="Shared/Face.cs" Condition="$(MSBuildProjectName.StartsWith('PdfPecker.Fonts.'))" />
+  </ItemGroup>
+
+  <!-- Each package embeds the files sources.json assigns to it, under their file names. A missing file stops the build
+       with the command that fetches it, rather than packing a package without fonts. -->
+  <Target Name="CheckSources" BeforeTargets="BeforeBuild" Condition="'@(SourceFile)' != ''">
+    <Error Condition="!Exists('$(SourcesDir)%(SourceFile.Identity)')"
+           Text="sources/%(SourceFile.Identity) is missing. Run: dotnet run --project tools/FontPack -- fetch" />
+    <ItemGroup>
+      <EmbeddedResource Include="@(SourceFile->'$(SourcesDir)%(Identity)')" LogicalName="%(Filename)%(Extension)" />
+    </ItemGroup>
+  </Target>
+</Project>

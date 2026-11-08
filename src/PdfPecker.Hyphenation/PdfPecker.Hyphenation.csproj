@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>PdfPecker.Hyphenation</PackageId>
+    <Description>Hyphenation patterns for PdfPecker in 48 more languages and variants, from British English, Finnish, Russian and Ukrainian to Greek, Georgian and Amharic, for CSS hyphens: auto, with one call. A language's patterns are read only when a document hyphenates text in it.</Description>
+    <PackageTags>pdf;hyphenation;hyphens;tex;hyph-utf8;typesetting;html-to-pdf;pdfpecker</PackageTags>
+    <!-- The pattern files come under several licences (MIT, LPPL, BSD-style and others), so the package's licence is
+         the notices file rather than an expression. -->
+    <PackageLicenseFile>THIRD-PARTY-NOTICES.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SourceFile Include="hyph-af.tex;hyph-be.tex;hyph-bg.tex;hyph-ca.tex;hyph-cop.tex;hyph-cu.tex;hyph-cy.tex;hyph-de-1901.tex;hyph-de-ch-1901.tex;hyph-el-monoton.tex;hyph-el-polyton.tex;hyph-en-gb.tex;hyph-eo.tex;hyph-et.tex;hyph-eu.tex;hyph-fi.tex;hyph-fur.tex;hyph-ga.tex;hyph-gl.tex;hyph-grc.tex;hyph-hr.tex;hyph-hsb.tex;hyph-ia.tex;hyph-is.tex;hyph-ka.tex;hyph-kk.tex;hyph-kmr.tex;hyph-la.tex;hyph-la-x-classic.tex;hyph-la-x-liturgic.tex;hyph-lt.tex;hyph-mn-cyrl.tex;hyph-mul-ethi.tex;hyph-oc.tex;hyph-pi.tex;hyph-pms.tex;hyph-rm.tex;hyph-ru.tex;hyph-sa.tex;hyph-sh-cyrl.tex;hyph-sh-latn.tex;hyph-sk.tex;hyph-sl.tex;hyph-sq.tex;hyph-tk.tex;hyph-tr.tex;hyph-uk.tex;hyph-zh-latn-pinyin.tex" />
+  </ItemGroup>
+
+</Project>

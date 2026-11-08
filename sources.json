@@ -1,0 +1,776 @@
+{
+  "fonts": [
+    {
+      "file": "NotoSansCJK-Regular.ttc",
+      "package": "PdfPecker.Fonts.Cjk",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTC/NotoSansCJK-Regular.ttc",
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    },
+    {
+      "file": "NotoSansCJK-Bold.ttc",
+      "package": "PdfPecker.Fonts.Cjk",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTC/NotoSansCJK-Bold.ttc",
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+    },
+    {
+      "file": "NotoSerifCJK-Regular.ttc",
+      "package": "PdfPecker.Fonts.Cjk.Serif",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Serif/OTC/NotoSerifCJK-Regular.ttc",
+      "sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d"
+    },
+    {
+      "file": "NotoSerifCJK-Bold.ttc",
+      "package": "PdfPecker.Fonts.Cjk.Serif",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Serif/OTC/NotoSerifCJK-Bold.ttc",
+      "sha256": "1505ee3b9c0890fae6302ee0e9c6fd74d690f4a55a6ace1d9944f3f6352d622d"
+    },
+    {
+      "file": "Noto-COLRv1.ttf",
+      "package": "PdfPecker.Fonts.Emoji",
+      "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/99701e07d3d1fe1bdbcdb14964547f0fd592966f/2D/fonts/Noto-COLRv1.ttf",
+      "sha256": "b8e25ea68db82f9e4d0aee921f4420be2be39887bd5c893a2ad98710531f9d0c"
+    },
+    {
+      "file": "NotoSansArabic-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-Regular.ttf",
+      "sha256": "bd86ca02f087d7f3c3788ba458fb6b73744c7639ed276b8d870dba6def6c40d0"
+    },
+    {
+      "file": "NotoSansArabic-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-Bold.ttf",
+      "sha256": "f4cb79f842a07d1bcf597879574358fb7010f73761396d1d0f2445dfedb4d2ca"
+    },
+    {
+      "file": "NotoSansHebrew-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansHebrew/unhinted/ttf/NotoSansHebrew-Regular.ttf",
+      "sha256": "04272f5600d0ec816d31d0df73b23aa8d3501ea359ebe820da31c11ffcf00853"
+    },
+    {
+      "file": "NotoSansHebrew-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansHebrew/unhinted/ttf/NotoSansHebrew-Bold.ttf",
+      "sha256": "dfdb3056de1f4542b888c77a1a8a750548a802e271479f56e52152423b64dde8"
+    },
+    {
+      "file": "NotoSansDevanagari-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-Regular.ttf",
+      "sha256": "9c7d935139ea6a1e6ad9dbac4f6d27ece1e04bca8123c8888d00a0f9df4724cd"
+    },
+    {
+      "file": "NotoSansDevanagari-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-Bold.ttf",
+      "sha256": "ff2f76a23aad41e0608c2d7dbc4bacd247ff3bec78f0ec2a8fb106b561636e58"
+    },
+    {
+      "file": "NotoSansBengali-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Regular.ttf",
+      "sha256": "5dceda02816fece18ea6796f474f5d3170f1d862f21b1e809cdc94b1caa4b6ec"
+    },
+    {
+      "file": "NotoSansBengali-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Bold.ttf",
+      "sha256": "2fe8d779e0f19576d1fc11e39f9154b4326a17b693215017dd1f5a8898c3f2c3"
+    },
+    {
+      "file": "NotoSansGurmukhi-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGurmukhi/unhinted/ttf/NotoSansGurmukhi-Regular.ttf",
+      "sha256": "2454c944fda799d2861f11c03e492c453e33083dd1e8d99bd6baac8de71ad0f0"
+    },
+    {
+      "file": "NotoSansGurmukhi-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGurmukhi/unhinted/ttf/NotoSansGurmukhi-Bold.ttf",
+      "sha256": "d16804da302ecb2a7defe0502e65136870445fd88f9fddaef60b68d5f1ee7386"
+    },
+    {
+      "file": "NotoSansGujarati-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGujarati/unhinted/ttf/NotoSansGujarati-Regular.ttf",
+      "sha256": "18727143b8eadade0a59dca80959ef784bf8d55e07285d1b4096594dbf829f0a"
+    },
+    {
+      "file": "NotoSansGujarati-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGujarati/unhinted/ttf/NotoSansGujarati-Bold.ttf",
+      "sha256": "3ce0cf6e1d0bfe2ef5823772eeb2f25da28ec0c2c1d99c0fce529025723e61a1"
+    },
+    {
+      "file": "NotoSansOriya-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Regular.ttf",
+      "sha256": "a16645d056017927406546aa78e4ce15e782fd8783467267b75450453d007415"
+    },
+    {
+      "file": "NotoSansOriya-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Bold.ttf",
+      "sha256": "1c575e8aba40d6baf200e8abac534e9517f431d38cc8131715643037eec149da"
+    },
+    {
+      "file": "NotoSansTamil-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansTamil/unhinted/ttf/NotoSansTamil-Regular.ttf",
+      "sha256": "6634d9cc97a726e670df41281dd32b167a6b9b71f2036e19671ff08fdde0c292"
+    },
+    {
+      "file": "NotoSansTamil-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansTamil/unhinted/ttf/NotoSansTamil-Bold.ttf",
+      "sha256": "04a472e49fa83b387976756554fe179de631a950d79f652ebba14a39a44f5d71"
+    },
+    {
+      "file": "NotoSansTelugu-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Regular.ttf",
+      "sha256": "dcb86a5da09365a2d73d725e429403dca988e6d50c1b1d564579a25dbc18bd29"
+    },
+    {
+      "file": "NotoSansTelugu-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Bold.ttf",
+      "sha256": "44393b05a863057cc2cbfe86623fc20b906b00cf19a2ae9304cdd0f3608889db"
+    },
+    {
+      "file": "NotoSansKannada-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Regular.ttf",
+      "sha256": "2870274619c2a4abe5d6b11fcb7c4a372eba765b6b7881d459b0eb0a609a68eb"
+    },
+    {
+      "file": "NotoSansKannada-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Bold.ttf",
+      "sha256": "e989c72f6fec5a0b3366af5f90e3ce8b2b8a350fc5286c6374f0353937e513f5"
+    },
+    {
+      "file": "NotoSansMalayalam-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansMalayalam/unhinted/ttf/NotoSansMalayalam-Regular.ttf",
+      "sha256": "cc39bb1f7d63b582a2aec1abf2469a43b805a3523a27e0a0eee8cd32702541d5"
+    },
+    {
+      "file": "NotoSansMalayalam-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansMalayalam/unhinted/ttf/NotoSansMalayalam-Bold.ttf",
+      "sha256": "165d635d82b0eb0a04275b92b9334c1ece679b99f263727c24c7c92ebcab51e9"
+    },
+    {
+      "file": "NotoSansThai-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansThai/unhinted/ttf/NotoSansThai-Regular.ttf",
+      "sha256": "d4303fe9c63ebb72759ca8b6d2040c8ae81689f7d08d7b91c656154382b49313"
+    },
+    {
+      "file": "NotoSansThai-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansThai/unhinted/ttf/NotoSansThai-Bold.ttf",
+      "sha256": "5227602d7f9108252cfb7d75d6f7b2a26bdb2fc2fa89a702f9063758fb2f86c7"
+    },
+    {
+      "file": "NotoSansLao-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansLao/unhinted/ttf/NotoSansLao-Regular.ttf",
+      "sha256": "d3976b0ac08702c54999ff42eae295d1597fd73b44e0c57d7f4917524e18afbe"
+    },
+    {
+      "file": "NotoSansLao-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansLao/unhinted/ttf/NotoSansLao-Bold.ttf",
+      "sha256": "6fea2e9f231a4b9cfdeec90e9afaff8818b3d11f74cdb23559275f71eeff1ffd"
+    },
+    {
+      "file": "NotoSansArmenian-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansArmenian/unhinted/ttf/NotoSansArmenian-Regular.ttf",
+      "sha256": "73bde9f3c63aa5ed39236e8a2837224605210a98b54d65724676c0119fcaa24c"
+    },
+    {
+      "file": "NotoSansArmenian-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansArmenian/unhinted/ttf/NotoSansArmenian-Bold.ttf",
+      "sha256": "1dd206046cd3f41efddec93359a8d6590e5e2d5fcb036b9025725b560cefe6c6"
+    },
+    {
+      "file": "NotoSansGeorgian-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf",
+      "sha256": "f4b229b126859725b75031dd8c051335d20c85e4eb6d525af28f3e83e471baa4"
+    },
+    {
+      "file": "NotoSansGeorgian-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf",
+      "sha256": "517722454bbe6587ada79a0509db8c9b292b6a40b025eebe69c151a6508efc7e"
+    },
+    {
+      "file": "NotoSansEthiopic-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansEthiopic/unhinted/ttf/NotoSansEthiopic-Regular.ttf",
+      "sha256": "86b9c07c049e68438388d00a34033fa28cabeef91b26e1bbed67512d360166d4"
+    },
+    {
+      "file": "NotoSansEthiopic-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansEthiopic/unhinted/ttf/NotoSansEthiopic-Bold.ttf",
+      "sha256": "6b06274ea730962522b1fcbfdcb16cb5a385aa36734f31f5c9d0ca910541e880"
+    },
+    {
+      "file": "NotoSansThaana-Regular.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Regular.ttf",
+      "sha256": "7543935bdcef770c9d3dd54222651b29040e5ec82f3bc58542392b2c7a9cbd3c"
+    },
+    {
+      "file": "NotoSansThaana-Bold.ttf",
+      "package": "PdfPecker.Fonts.Scripts",
+      "url": "https://raw.githubusercontent.com/notofonts/notofonts.github.io/86ce02c0fe7890f5936c5dffb26fca0797d1be64/fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Bold.ttf",
+      "sha256": "476597290f449013cb07477b1089219db333c6af9ec0e436a74139ea9b2c8536"
+    }
+  ],
+  "hyphenation": [
+    {
+      "file": "hyph-af.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-af.tex",
+      "sha256": "a5de62ec8e5fd38251de838d8ebbdc44b21c76d30e9b486005fbfa641a93abe6",
+      "languages": [
+        "af"
+      ],
+      "left": 1,
+      "right": 2
+    },
+    {
+      "file": "hyph-be.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-be.tex",
+      "sha256": "ce0c69d86e03c40bdd0ab9f4535cee2503fe2894590380e45a99974f029cea6f",
+      "languages": [
+        "be"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-bg.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-bg.tex",
+      "sha256": "d37886f8cecea60bf829e4dd9dc1107aea8e8ee3eb92425423534bafac5f59b0",
+      "languages": [
+        "bg"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-ca.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ca.tex",
+      "sha256": "153b51e2a9f8afdd87a8848f73f4462a902c58d597aa55c66506af65c5596e7a",
+      "languages": [
+        "ca"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-cop.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-cop.tex",
+      "sha256": "e66cbaa15da902f47cf955bd654f2eb0afe2abe5d1c819db1fd8186b98c7bb40",
+      "languages": [
+        "cop"
+      ],
+      "left": 1,
+      "right": 1
+    },
+    {
+      "file": "hyph-cu.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-cu.tex",
+      "sha256": "f4636573f2e35ac367159d286bf4b8f65fb68d3bc2712b3e763ad53d498a56ca",
+      "languages": [
+        "cu"
+      ],
+      "left": 1,
+      "right": 2
+    },
+    {
+      "file": "hyph-cy.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-cy.tex",
+      "sha256": "22c4d441e790c035bd208c4cccbe9a8254ab81c3da0ca0a8b062f8ed34f3e14c",
+      "languages": [
+        "cy"
+      ],
+      "left": 2,
+      "right": 3
+    },
+    {
+      "file": "hyph-de-1901.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.tex",
+      "sha256": "fe3cc8f71d5bce07ca8bbaf7396ece6da004d5cd88a02a448467956cd34b7482",
+      "languages": [
+        "de-1901"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-de-ch-1901.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-de-ch-1901.tex",
+      "sha256": "5a72deec0543bf428d073a40f9abf626baaab5f58b75e620b9504309f1980bf3",
+      "languages": [
+        "de-ch-1901"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-el-monoton.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-el-monoton.tex",
+      "sha256": "a3aa9ecba9c00dd958a2b1d1d3b3aa851701f6d0027ef9cc9d7365e432c5acb0",
+      "languages": [
+        "el",
+        "el-monoton"
+      ],
+      "left": 1,
+      "right": 1
+    },
+    {
+      "file": "hyph-el-polyton.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-el-polyton.tex",
+      "sha256": "b5eae46414200e027b24aa5ff97c63b17567d772c2beac003cfeaa3bd1eddb4b",
+      "languages": [
+        "el-polyton"
+      ],
+      "left": 1,
+      "right": 1
+    },
+    {
+      "file": "hyph-en-gb.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-en-gb.tex",
+      "sha256": "e95bb4ab350f620c41c231c4785d7bdb4f91949d3e631b30e08b3ead3c340a52",
+      "languages": [
+        "en-gb"
+      ],
+      "left": 2,
+      "right": 3
+    },
+    {
+      "file": "hyph-eo.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-eo.tex",
+      "sha256": "6892e3758fd35a1cb509556bb06fcb008eda3e975a867ee87eb828f204460d18",
+      "languages": [
+        "eo"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-et.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-et.tex",
+      "sha256": "617abc528446e33c1690a3d13ae7629292d2f00557b1b4ec96cb2a1d790ac090",
+      "languages": [
+        "et"
+      ],
+      "left": 2,
+      "right": 3
+    },
+    {
+      "file": "hyph-eu.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-eu.tex",
+      "sha256": "e080a1e42ac443d8451df46d9d6628e64e8317aa53d826f99099652aaba613d0",
+      "languages": [
+        "eu"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-fi.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-fi.tex",
+      "sha256": "cf68be5eb003d299f85f2b7185f31d8ff5799c19dfad3f0300eaf9843e9cc8d3",
+      "languages": [
+        "fi"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-fur.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-fur.tex",
+      "sha256": "1987a744179d443677258f9ac0ef941fd2673e235aa576c20da64e352c95f6aa",
+      "languages": [
+        "fur"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-ga.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ga.tex",
+      "sha256": "7856cb341fd978b910c3807aa6918b39791e2f507d803253daccb5c71bbc02c6",
+      "languages": [
+        "ga"
+      ],
+      "left": 2,
+      "right": 3
+    },
+    {
+      "file": "hyph-gl.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-gl.tex",
+      "sha256": "a7dbf7fd11c646921a40be561fb1ba362cd79ce93d0099dec9f86676abb5273a",
+      "languages": [
+        "gl"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-grc.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-grc.tex",
+      "sha256": "38870c0292b1937517dd1709c5af5b1200f7a15a25469f5389a1783579abaf6a",
+      "languages": [
+        "grc"
+      ],
+      "left": 1,
+      "right": 1
+    },
+    {
+      "file": "hyph-hr.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-hr.tex",
+      "sha256": "69d684289c626c2576678112699c960d5821b52e7addbd473c0e8d0ef0c1694e",
+      "languages": [
+        "hr"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-hsb.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-hsb.tex",
+      "sha256": "0b961d89317523960f41b2f32742abf807a253717200d9756b8d69c12f895fcf",
+      "languages": [
+        "hsb"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-ia.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ia.tex",
+      "sha256": "c2e570831d02831f2c2c26e17ebe68d81c02a1c2cfbf4ac9d182610d6a0c6e3d",
+      "languages": [
+        "ia"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-is.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-is.tex",
+      "sha256": "2707969ebe34a9ddfd861aaef40619e75ac78453718a56401aed91c5cbdcfcec",
+      "languages": [
+        "is"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-ka.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ka.tex",
+      "sha256": "909f290e3a018e6b28692606ed2c1cf26d64f2d8bb1ec43e6133aba6d4704759",
+      "languages": [
+        "ka"
+      ],
+      "left": 1,
+      "right": 2
+    },
+    {
+      "file": "hyph-kk.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-kk.tex",
+      "sha256": "76a394f5b13f60862a9842bd399643af37d386a1737bc42a09439b090a623e19",
+      "languages": [
+        "kk"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-kmr.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-kmr.tex",
+      "sha256": "2299d69ff2e093291338275b20fa85a35c62abc156835647d5d91a9dfad476eb",
+      "languages": [
+        "kmr"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-la.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-la.tex",
+      "sha256": "84e0be1877beaf6d1d7a83d5639fb65a0e0645cd2447b0dbccfa5e63565abdfd",
+      "languages": [
+        "la"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-la-x-classic.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-la-x-classic.tex",
+      "sha256": "68257e2ce6ee077f635e38c700734ede7d1ebb4f4708546b878a0bee68bd7d8f",
+      "languages": [
+        "la-x-classic"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-la-x-liturgic.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-la-x-liturgic.tex",
+      "sha256": "60fea9390492d86bf701f77da8ac818a027da7ea9badb2965e9889ddeb95a5d0",
+      "languages": [
+        "la-x-liturgic"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-lt.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-lt.tex",
+      "sha256": "6162b566620367abb827ba1457567e7a79680596919886a7138e48b346e983d1",
+      "languages": [
+        "lt"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-mn-cyrl.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-mn-cyrl.tex",
+      "sha256": "22903e12e25e5348d7c2285f8d3173215540296e1b47f38515936618993988fa",
+      "languages": [
+        "mn",
+        "mn-cyrl"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-mul-ethi.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-mul-ethi.tex",
+      "sha256": "df702eec647db16b37056d7850b066fb7e006a0c9753006e2cd761f19f642bff",
+      "languages": [
+        "am",
+        "ti",
+        "gez"
+      ],
+      "left": 1,
+      "right": 1
+    },
+    {
+      "file": "hyph-oc.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-oc.tex",
+      "sha256": "0a968a3588697da7c0ef13f219f45973fc75c08e8ee9253ff1a4bf567167c8fb",
+      "languages": [
+        "oc"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-pi.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-pi.tex",
+      "sha256": "d27f9141dc55bfff0a00a204fd8af2031a1fd23ead83836ffec61debf4eb9033",
+      "languages": [
+        "pi"
+      ],
+      "left": 1,
+      "right": 2
+    },
+    {
+      "file": "hyph-pms.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-pms.tex",
+      "sha256": "a5af2db65a7bc27318c3d0300d1a3ef332997a6d447a572aa728e0710ac3243e",
+      "languages": [
+        "pms"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-rm.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-rm.tex",
+      "sha256": "e79c432ffdf1611a23ed9368ee25612a8e7bde78f6cff24a8f6a36abd02440c9",
+      "languages": [
+        "rm"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-ru.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-ru.tex",
+      "sha256": "ce988fcc66e5e29d7474df5ab5b489d3f52a50ebccf570997f992d84221b922a",
+      "languages": [
+        "ru"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-sa.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex",
+      "sha256": "7f895b18be9ef598dfbc490ed19a24200712652eb0c5068f5c6fd88c363759c8",
+      "languages": [
+        "sa"
+      ],
+      "left": 1,
+      "right": 3
+    },
+    {
+      "file": "hyph-sh-cyrl.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sh-cyrl.tex",
+      "sha256": "9b0f8f489868d3f98d4dec8a5d71f465ad5a70afde6857c6c2d79ec0344618fc",
+      "languages": [
+        "sr",
+        "sr-cyrl",
+        "sh-cyrl"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-sh-latn.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sh-latn.tex",
+      "sha256": "5aea49c845df3c21b95e417abfc28349909a4c9565523702055a122153486a4a",
+      "languages": [
+        "sh",
+        "sh-latn",
+        "sr-latn"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-sk.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sk.tex",
+      "sha256": "55b51962da5ad3f48ff62007006ecb7768bf2665e407c920e968d08b10b40369",
+      "languages": [
+        "sk"
+      ],
+      "left": 2,
+      "right": 3
+    },
+    {
+      "file": "hyph-sl.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sl.tex",
+      "sha256": "27da982d03b881fe84f1c4fb42ba0948f33e01a3a44eaa5ebd07e01d20c72691",
+      "languages": [
+        "sl"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-sq.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sq.tex",
+      "sha256": "632e3c5c02d0f2260b4195e7b6e9f6e348c2deb57c61d2a0dc832209a332ee9f",
+      "languages": [
+        "sq"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-tk.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-tk.tex",
+      "sha256": "801ef59c14dab4fec0a9ae178632e63b8ef9f0362dcea74f4a3689a4a7908690",
+      "languages": [
+        "tk"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-tr.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-tr.tex",
+      "sha256": "9243b6fc1426b07dae71c6136bd7d4a907e01a36ab6326f349ee6c310e6bb2b5",
+      "languages": [
+        "tr"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-uk.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-uk.tex",
+      "sha256": "9f57d9593f4b8a93e033f7f9649aaf3abb49d17117cbd987692b626e13374c55",
+      "languages": [
+        "uk"
+      ],
+      "left": 2,
+      "right": 2
+    },
+    {
+      "file": "hyph-zh-latn-pinyin.tex",
+      "package": "PdfPecker.Hyphenation",
+      "url": "https://raw.githubusercontent.com/hyphenation/tex-hyphen/5684c0f51c0b81133db2efbe60a408b4155a3ff5/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-zh-latn-pinyin.tex",
+      "sha256": "c007e61bd59a16a00e12603b9a97968d730b955627d1aed5d856c5e425f7970e",
+      "languages": [
+        "zh-latn-pinyin"
+      ],
+      "left": 1,
+      "right": 2
+    }
+  ]
+}

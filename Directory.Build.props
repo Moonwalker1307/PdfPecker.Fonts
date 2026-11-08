@@ -1,0 +1,26 @@
+<Project>
+  <!-- Settings every project in the repository shares: nullable reference types on, and a warning breaks the build. -->
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Every package has the version of the PdfPecker release it is built on, and depends on that release as a minimum.
+       RELEASING.md describes the bump after each PdfPecker release. -->
+  <PropertyGroup>
+    <PdfPeckerVersion>1.24.0</PdfPeckerVersion>
+    <Version>$(PdfPeckerVersion)</Version>
+  </PropertyGroup>
+
+  <!-- The fonts and pattern files are not in git: tools/FontPack fetch downloads them, checked against sources.json. -->
+  <PropertyGroup>
+    <SourcesDir>$(MSBuildThisFileDirectory)sources/</SourcesDir>
+  </PropertyGroup>
+
+  <!-- CI builds use repository-relative source paths in the PDB, so builds are reproducible from the same commit. -->
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>

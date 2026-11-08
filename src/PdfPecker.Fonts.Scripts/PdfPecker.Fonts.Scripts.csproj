@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>PdfPecker.Fonts.Scripts</PackageId>
+    <Description>Noto Sans fonts for PdfPecker in 17 scripts the base library has no font for: Arabic, Hebrew, Thaana, Devanagari, Bengali, Gurmukhi, Gujarati, Oriya, Tamil, Telugu, Kannada, Malayalam, Thai, Lao, Armenian, Georgian and Ethiopic, in regular and bold, with one call. Each font is read only when a document uses its script.</Description>
+    <PackageTags>pdf;fonts;noto;arabic;hebrew;hindi;devanagari;indic;thai;tamil;bengali;armenian;georgian;html-to-pdf;pdfpecker</PackageTags>
+    <PackageLicenseExpression>MIT AND OFL-1.1</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SourceFile Include="NotoSansArabic-Regular.ttf;NotoSansArabic-Bold.ttf;NotoSansHebrew-Regular.ttf;NotoSansHebrew-Bold.ttf;NotoSansDevanagari-Regular.ttf;NotoSansDevanagari-Bold.ttf;NotoSansBengali-Regular.ttf;NotoSansBengali-Bold.ttf;NotoSansGurmukhi-Regular.ttf;NotoSansGurmukhi-Bold.ttf;NotoSansGujarati-Regular.ttf;NotoSansGujarati-Bold.ttf;NotoSansOriya-Regular.ttf;NotoSansOriya-Bold.ttf;NotoSansTamil-Regular.ttf;NotoSansTamil-Bold.ttf;NotoSansTelugu-Regular.ttf;NotoSansTelugu-Bold.ttf;NotoSansKannada-Regular.ttf;NotoSansKannada-Bold.ttf;NotoSansMalayalam-Regular.ttf;NotoSansMalayalam-Bold.ttf;NotoSansThai-Regular.ttf;NotoSansThai-Bold.ttf;NotoSansLao-Regular.ttf;NotoSansLao-Bold.ttf;NotoSansArmenian-Regular.ttf;NotoSansArmenian-Bold.ttf;NotoSansGeorgian-Regular.ttf;NotoSansGeorgian-Bold.ttf;NotoSansEthiopic-Regular.ttf;NotoSansEthiopic-Bold.ttf;NotoSansThaana-Regular.ttf;NotoSansThaana-Bold.ttf" />
+  </ItemGroup>
+
+</Project>

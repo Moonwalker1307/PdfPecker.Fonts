@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>PdfPecker.Fonts.Cjk</PackageId>
+    <Description>Noto Sans CJK for PdfPecker: Chinese (simplified, traditional and Hong Kong), Japanese and Korean text in regular and bold, with one call. The fonts are read only when a document has CJK text, and only the glyphs it uses are embedded.</Description>
+    <PackageTags>pdf;fonts;cjk;chinese;japanese;korean;noto;noto-sans-cjk;html-to-pdf;pdfpecker</PackageTags>
+    <PackageLicenseExpression>MIT AND OFL-1.1</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../SharedCjk/*.cs" Link="Shared/%(Filename)%(Extension)" />
+    <SourceFile Include="NotoSansCJK-Regular.ttc;NotoSansCJK-Bold.ttc" />
+  </ItemGroup>
+
+</Project>
