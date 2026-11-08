@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PdfPecker.Fonts.Cjk/PdfPecker.Fonts.Cjk.csproj" />
+    <Project Path="src/PdfPecker.Fonts.Cjk.Serif/PdfPecker.Fonts.Cjk.Serif.csproj" />
+    <Project Path="src/PdfPecker.Fonts.Emoji/PdfPecker.Fonts.Emoji.csproj" />
+    <Project Path="src/PdfPecker.Fonts.Scripts/PdfPecker.Fonts.Scripts.csproj" />
+    <Project Path="src/PdfPecker.Hyphenation/PdfPecker.Hyphenation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PdfPecker.Fonts.Tests/PdfPecker.Fonts.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/FontPack/FontPack.csproj" />
+  </Folder>
+</Solution>

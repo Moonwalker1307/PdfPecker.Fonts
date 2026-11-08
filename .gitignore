@@ -426,3 +426,8 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Fonts and pattern files that tools/FontPack fetch downloads, and a PdfPecker package built from the library's main.
+/sources/
+/local-feed/
+/artifacts/

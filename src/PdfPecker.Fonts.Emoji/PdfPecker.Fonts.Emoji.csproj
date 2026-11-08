@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>PdfPecker.Fonts.Emoji</PackageId>
+    <Description>Noto Color Emoji for PdfPecker: colour emoji, including flags, skin tones and ZWJ sequences, printed as vector COLRv1 glyphs as Chrome prints them. Read only when a document has emoji.</Description>
+    <PackageTags>pdf;fonts;emoji;color-emoji;colrv1;noto;noto-color-emoji;html-to-pdf;pdfpecker</PackageTags>
+    <PackageLicenseExpression>MIT AND OFL-1.1</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SourceFile Include="Noto-COLRv1.ttf" />
+  </ItemGroup>
+
+</Project>
