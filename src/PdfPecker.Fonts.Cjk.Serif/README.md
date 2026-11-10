@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Fonts.Cjk.Serif
 
 Noto Serif CJK for [PdfPecker](https://www.nuget.org/packages/PdfPecker): the Song and Mincho style serif fonts for
