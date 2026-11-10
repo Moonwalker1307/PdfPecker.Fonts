@@ -65,13 +65,17 @@ jobs:
         run: dotnet run --project tools/FontPack -c Release --no-build -- check
 
       # Until nuget.org has the PdfPecker version the packages need, they build against the library's main branch,
-      # packed with that version into local-feed/. A release never does: it needs the published library.
+      # packed with that version into local-feed/. A release never does: it needs the published library. nuget.config
+      # maps the PdfPecker package to local-feed/ alone, so the published package is downloaded there too.
       - name: PdfPecker package
         env:
           VERSION: ${{ steps.version.outputs.version }}
         run: |
+          mkdir -p local-feed
           if curl -fsS "https://api.nuget.org/v3-flatcontainer/pdfpecker/index.json" | grep -q "\"$VERSION\""; then
             echo "PdfPecker $VERSION is on nuget.org"
+            curl -fsSL --retry 4 -o "local-feed/pdfpecker.$VERSION.nupkg" \
+              "https://api.nuget.org/v3-flatcontainer/pdfpecker/$VERSION/pdfpecker.$VERSION.nupkg"
           elif [ "$GITHUB_EVENT_NAME" = "release" ]; then
             echo "::error::PdfPecker $VERSION is not on nuget.org yet; release these packages after it"
             exit 1

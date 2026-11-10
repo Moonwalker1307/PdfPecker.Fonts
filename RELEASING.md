@@ -15,6 +15,16 @@ Only the repository owner publishes a release. Trusted Publishing needs, once: a
 repository, workflow `build.yml` and environment `nuget`; the GitHub environment `nuget`; and the repository variable
 `NUGET_USER` set to the nuget.org account.
 
+## Building locally
+
+`nuget.config` takes the PdfPecker package from `local-feed/` alone, so a build needs it there, also once nuget.org
+has the version (CI downloads it the same way):
+
+```
+mkdir -p local-feed
+curl -fsSL -o local-feed/pdfpecker.<version>.nupkg https://api.nuget.org/v3-flatcontainer/pdfpecker/<version>/pdfpecker.<version>.nupkg
+```
+
 ## Between library changes and their release
 
 When the packages need a library change that is merged but not released, `PdfPeckerVersion` names the coming version
