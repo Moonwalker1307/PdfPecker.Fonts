@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Fonts
 
 Opt-in fonts and hyphenation patterns for [PdfPecker](https://github.com/Moonwalker1307/PdfPecker), the

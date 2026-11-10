@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Fonts.Emoji
 
 Noto Color Emoji for [PdfPecker](https://www.nuget.org/packages/PdfPecker): colour emoji in PDFs, as vector COLRv1

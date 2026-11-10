@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Fonts.Cjk
 
 Noto Sans CJK for [PdfPecker](https://www.nuget.org/packages/PdfPecker): Chinese (simplified, traditional and Hong

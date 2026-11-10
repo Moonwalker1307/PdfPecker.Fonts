@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Hyphenation
 
 Hyphenation patterns for [PdfPecker](https://www.nuget.org/packages/PdfPecker) in 48 more languages and variants, for

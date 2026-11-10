@@ -1,3 +1,5 @@
+![PdfPecker](https://raw.githubusercontent.com/Moonwalker1307/PdfPecker/main/assets/logo.png)
+
 # PdfPecker.Fonts.Scripts
 
 Noto Sans for [PdfPecker](https://www.nuget.org/packages/PdfPecker) in 17 scripts that PdfPecker shapes but has no
