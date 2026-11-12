@@ -10,7 +10,7 @@
   <!-- Every package has the version of the PdfPecker release it is built on, and depends on that release as a minimum.
        RELEASING.md describes the bump after each PdfPecker release. -->
   <PropertyGroup>
-    <PdfPeckerVersion>1.24.0</PdfPeckerVersion>
+    <PdfPeckerVersion>1.25.0</PdfPeckerVersion>
     <Version>$(PdfPeckerVersion)</Version>
   </PropertyGroup>
 
