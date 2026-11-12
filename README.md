@@ -47,6 +47,8 @@ names such as `"Noto Sans JP"` and `"Noto Serif TC"`.
 The packages target .NET 8 (and so run on .NET 8, 9 and 10), carry no dependency besides PdfPecker, and have the
 version of the PdfPecker release they need.
 
+**1.25.0 is the last release for .NET 8 and 9.** Microsoft ended support for both on 10 November 2026, and PdfPecker 1.25.0 is the last PdfPecker release for them. The next release of these packages follows it and targets .NET 10 and later only; 1.25.0 and earlier releases keep working on .NET 8 and 9.
+
 ## What is left out
 
 - Sinhala, Khmer, Myanmar and Tibetan: PdfPecker does not shape these scripts yet, so their fonts would print wrong.

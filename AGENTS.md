@@ -41,6 +41,7 @@ is a few lines of C# over embedded files, registered with PdfPecker's public `Fo
 - **Trimmable and AOT-compatible.** No reflection. Classes are `sealed` or `static`; `.globalconfig` turns the .NET
   performance and culture analyzers into build errors, as in PdfPecker.
 - **One target framework.** The packages target net8.0 only, so the fonts are in each package once.
+  1.25.0 is the last release for .NET 8 and 9 (`README.md`), as in PdfPecker; the release after it targets net10.0 only.
 - **Never name a user's private application or employer** in code, tests, commits, the README or PR descriptions.
 
 ## Repo map
