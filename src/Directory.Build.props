@@ -1,10 +1,10 @@
 <Project>
   <Import Project="../Directory.Build.props" />
 
-  <!-- What every package shares. Each package targets net8.0 only: the fonts are the bulk of it, and one target framework
-       keeps them in the package once instead of once per framework. It runs on .NET 8, 9 and 10. -->
+  <!-- What every package shares. Each package targets net10.0 only: the fonts are the bulk of it, and one target
+       framework keeps them in the package once instead of once per framework. It runs on .NET 10 and later. -->
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsTrimmable>true</IsTrimmable>
     <IsAotCompatible>true</IsAotCompatible>
